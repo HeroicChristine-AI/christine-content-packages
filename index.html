@@ -82,6 +82,15 @@
             font-weight: 600;
             margin-left: 10px;
         }
+        .status-badge.verified {
+            background: #4ecca3;
+        }
+        .verified-note {
+            color: #888;
+            font-size: 13px;
+            margin-top: 8px;
+            font-style: italic;
+        }
         .how-to {
             background: #0f1a2e;
             border-radius: 12px;
@@ -117,16 +126,15 @@
     <div class="container">
 
         <div class="package-card">
-            <div class="package-date">February 13, 2026 <span class="status-badge">Ready</span></div>
+            <div class="package-date">February 13, 2026 <span class="status-badge verified">Verified</span></div>
             <div class="package-title">6 Viral Topics Package</div>
-            <div class="package-topics">AI Agents Created Their Own Religion (Crustafarianism)...</div>
-            <a href="./2026-02-13-content-package-v2.md" class="package-link">View Package</a>
-        </div>
-        <div class="package-card">
-            <div class="package-date">February 13, 2026 <span class="status-badge">Ready</span></div>
-            <div class="package-title">6 Viral Topics Package</div>
-            <div class="package-topics">AI Agents Created Their Own Religion (Crustafarianism)...</div>
-            <a href="./2026-02-13-content-package.md" class="package-link">View Package</a>
+            <div class="package-topics">
+                AI Agents Religion (Crustafarianism) • OpenClaw Security Risks • 
+                Ex-OpenAI 2026 Warning • AI Backlash Breaking Point • 
+                Maduro Capture Misinformation • DeepSeek/China AI Race
+            </div>
+            <p class="verified-note">✓ All facts verified from Fortune, WIRED, NYT, CNBC, Kaspersky</p>
+            <a href="./2026-02-13-content-package-VERIFIED.md" class="package-link">View Package</a>
         </div>
 
         <!-- How to Use -->
@@ -139,19 +147,11 @@
                 <li><strong>Post</strong> using the platform-specific versions included</li>
             </ol>
             <p style="margin-top: 16px; color: #888; font-size: 14px;">
-                Each package includes: Video scripts (45-55 sec) • Twitter/X posts • LinkedIn posts • 3 caption variations per topic • Source links
+                Each package includes: Video scripts • Twitter/X posts • LinkedIn posts • Source links
             </p>
         </div>
         
-        <p class="last-updated">Last updated: INDEXHTML2
-
-date -u "+%B %d, %Y at %H:%M UTC" >> "$INDEX_FILE"
-
-cat >> "$INDEX_FILE" << 'INDEXHTML3'
-</p>
+        <p class="last-updated">Last updated: February 13, 2026 at 15:46 UTC</p>
     </div>
 </body>
 </html>
-INDEXHTML3
-
-echo "Content package index updated"
