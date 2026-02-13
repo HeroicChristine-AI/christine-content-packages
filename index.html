@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christine's Content Packages</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background: #1a1a2e; 
+            color: #eee; 
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        h1 { 
+            text-align: center; 
+            margin-bottom: 10px; 
+            color: #4ecca3; 
+            font-size: 32px;
+        }
+        .subtitle { 
+            text-align: center; 
+            color: #888; 
+            margin-bottom: 40px; 
+            font-size: 16px; 
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        .package-card {
+            background: #16213e;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .package-card:hover {
+            transform: translateY(-2px);
+            border-color: #4ecca3;
+        }
+        .package-date {
+            color: #4ecca3;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .package-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+        .package-topics {
+            color: #aaa;
+            font-size: 14px;
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+        .package-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4ecca3;
+            color: #1a1a2e;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .package-link:hover {
+            background: #3db892;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #4ecca3;
+            color: #1a1a2e;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        .how-to {
+            background: #0f1a2e;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 40px;
+            border: 1px solid #333;
+        }
+        .how-to h2 {
+            color: #4ecca3;
+            margin-bottom: 16px;
+            font-size: 18px;
+        }
+        .how-to ol {
+            margin-left: 20px;
+            color: #aaa;
+            line-height: 1.8;
+        }
+        .how-to li {
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📦 Content Packages</h1>
+    <p class="subtitle">All your ready-to-post content in one place</p>
+
+    <div class="container">
+
+        <div class="package-card">
+            <div class="package-date">February 13, 2026 <span class="status-badge">Ready</span></div>
+            <div class="package-title">6 Viral Topics Package</div>
+            <div class="package-topics">AI Agents Created Their Own Religion (Crustafarianism)...</div>
+            <a href="./2026-02-13-content-package.md" class="package-link">View Package</a>
+        </div>
+
+        <!-- How to Use -->
+        <div class="how-to">
+            <h2>How to Use</h2>
+            <ol>
+                <li><strong>Open</strong> the package file</li>
+                <li><strong>Pick a topic</strong> that resonates with you</li>
+                <li><strong>Record</strong> using the video script provided</li>
+                <li><strong>Post</strong> using the platform-specific versions included</li>
+            </ol>
+            <p style="margin-top: 16px; color: #888; font-size: 14px;">
+                Each package includes: Video scripts (45-55 sec) • Twitter/X posts • LinkedIn posts • 3 caption variations per topic • Source links
+            </p>
+        </div>
+        
+        <p class="last-updated">Last updated: INDEXHTML2
+
+date -u "+%B %d, %Y at %H:%M UTC" >> "$INDEX_FILE"
+
+cat >> "$INDEX_FILE" << 'INDEXHTML3'
+</p>
+    </div>
+</body>
+</html>
+INDEXHTML3
+
+echo "Content package index updated"
